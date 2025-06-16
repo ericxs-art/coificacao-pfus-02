@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário de cadastro</title>
+  </head>
+  <body>
+    <h1>FORMULÁRIO</h1>
+    <form action="" method="">
+      <fieldset>
+        <legend>Dados de login</legend>
+        <label for="Nome"> Nome: </label>
+        <input
+          type="text"
+          id="Nome"
+          placeholder="Digite seu Nome"
+          maxlength="20"
+        />
+        <br />
+        <br />
+        <label for="">Email :</label>
+
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Digite seu email"
+        />
+        <br /><br />
+        <label for="">Senha :</label>
+        <input
+          type="password"
+          name="Senha"
+          id="Senha"
+          placeholder="Senha misteriosa"
+        />
+        <br /><br />
+        <input type="submit" value="login" />
+      </fieldset>
+    </form>
+    <br /><br />
+    <h1>Outros inputs top</h1>
+    <!-- Outros inputs -->
+    <label for="data">Data de nascimento: </label>
+    <input type="date" id="data" />
+    <input type="datetime-local" />
+    <input type="time" />
+    <br /><br />
+    <label for="telefone"> telefone: </label>
+    <input
+      type="tel"
+      name="telefone"
+      data-mask="(00)00000-00000"
+      data-mask-selectonfus="true"
+    />
+
+    <br /><br />
+
+    <label for="textao">Texto grande</label>
+    <textarea name="textao" id="textao" placeholder="Cr7"> </textarea>
+    <br /><br />
+    <label for="cor">Cor :</label>
+    <input type="color" name="cor" id="cor" />
+    <br /><br />
+
+    <label for="numero">Número:</label>
+    <input type="number" />
+    <input type="number" min="-50" max="100" value="7" step="5" />
+
+<br><br>
+<label for="barra">Barrinha top:</label>
+0 <input type="range" name="barra" id="barra"
+min="0" max="100" step="20"> 100
+
+<br><br>
+<label for="">Selecione seu curso: </label>
+<br>
+<input type="radio" name="curso" value="eletrica"> Elétrica
+<input type="radio" name="curso" value="Mecanica"> Mecânica
+<input type="radio" name="curso" value="T.I"> T.I
+
+<br><br>
+
+<label for=""> Redes sociais</label>
+<br>
+<input type="checkbox" name="tec1" value="zap"> whatsap
+<input type="checkbox" name="tec2" value="face"> facebok
+<input type="checkbox" name="tec3" value="tt"> twiter
+
+<br><br>
+
+<label for=""> Selecione sua cidade:</label>
+<select name="cidades id="cidades">
+  <optgroup name="es" value="Es" label="es">
+<option value="Cobna"> Copacabana</option>
+<option value="Ve ciy"> Vice city</option>
+</optgroup>
+<option value="Mad"> Madrid </option>
+<option value="toquio"> Toquio</option>
+<option value="sn andreas"> San andreas </option>
+
+</select>
+<br><br>
+
+<input type="reset" value="Reset"
+</select>
+  </body>
+</html>
