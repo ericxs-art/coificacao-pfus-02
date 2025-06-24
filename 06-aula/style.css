@@ -1,0 +1,44 @@
+h1{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+nav{
+background-color: cornflowerblue;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+div{
+    background-color: dimgray;
+}
+p{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+#caixa-roxa{
+    background-color: lightgreen;
+    color: honeydew;
+    width: 200px;
+    height: 300px;
+}
+#caixa-rosa{
+    background-color: rgb(199, 211, 255);
+    color: rgba(238, 0, 0, 0.492);
+    width: 1200px;
+    height: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    margin
+}
+.minicaixa{
+    background-color: black;
+    font-size: 35px;
+    text-align: cente;
+    width: 30%;
+    height: 100%;
+     display: inline-block;
+}
