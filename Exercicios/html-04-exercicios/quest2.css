@@ -1,0 +1,30 @@
+p {
+  background-color: greenyellow;
+}
+body{
+      background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fge.globo.com%2Ffutebol%2Ffutebol-internacional%2Fnoticia%2F2024%2F07%2F21%2Fbarcelona-homenageia-21-anos-da-chegada-de-ronaldinho-gaucho.ghtml&psig=AOvVaw17CBnubDhzsQ2v6zSUa3qn&ust=1750969465190000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJi2j--zjY4DFQAAAAAdAAAAABAE");
+       background-repeat: repeat-x;
+       background-size: 300px 100px;
+}
+
+#first{
+    width: 90%;
+    height: 2000px;
+    background-image: url("https://s2-ge.glbimg.com/3WXg721U4vYC8U5sZ5tq4ihCPpA=/0x0:4033x2786/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2025/r/O/4YOQMoSFWok9Grq7GRGw/2025-05-21t161435z-287164770-up1el5l194axo-rtrmadp-3-soccer-saudi-nsr-kha-report-1-.jpg" ); 
+    background-repeat: repeat-y;
+  }
+  #second{
+    background-image: url("https://tntsports.com.br/__export/1738101301157/sites/esporteinterativo/img/2025/01/28/vini_jr__em_jogo_do_real_madrid_na_champions.jpg_701071877.jpg");
+    margin: auto;
+    background-position: center;
+     width: 200px;
+    height: 200px;
+  }
+  body{
+    background-color: yellow; 
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    background-image: url("https://imageio.forbes.com/specials-images/imageserve/65be17cb80f5c798a03e7762/0x0.jpg?format=jpg&height=600&width=1200&fit=bounds" ); 
+    background-attachment: fixed;
+  }
