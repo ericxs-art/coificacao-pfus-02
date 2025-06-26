@@ -1,3 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Manufacturing+Consent&display=swap');
+
 body{
     background-color: cornflowerblue;
+    color: blanchedalmond;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    background-color: aliceblue;
+    color: black;
+    padding: 5px;
+}
+#sladireita{
+    text-align: right;
+}
+#slaesquerda{
+    text-align: left;
+}
+#slacentro{
+    text-align: center;
+}
+#justificar{
+    text-align: justify;
+}
+#maisculo{
+text-transform: uppercase;
+}
+#minisculo{
+    text-transform: lowercase;
+}
+#capitalizado{
+    text-transform: capitalize;
+}
+h1{
+    font-size: 80px;
+    font-weight: 800;
+    text-shadow: 5px 5px mediumturquoise;
+}
+#enfeite{
+    text-decoration: overline underline palevioletred;
+}
+#outrafonte{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+color: darkviolet;
+}
+#fonte-google{
+    font-family: "Manufacturing Consent", system-ui; 
+}
+@font-face{
+    font-family: "url(../../../Downloads/DM_Sans/DMSans-Italic-VariableFont_opsz,wght.ttf)" ;
+    src: url(./fontes/DMSans-VariableFont_opsz\,wght.ttf);
+}
+#Fonte-personalizada{
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size: 50px;
 }
