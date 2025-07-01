@@ -1,0 +1,71 @@
+body{
+
+    background-color: red;
+    height: 2000px;
+}
+.pai{
+    width: 200px;
+    height: 200px;
+}
+.filho{
+    width: 50px;
+    height: 50px;
+}
+#p-estatico{
+background-color: cadetblue;
+position: static;
+}
+#f-estatico{
+background-color: rgba(65, 118, 32, 0.87);
+position: static;
+}
+#p-fixo{
+background-color: lawngreen;
+position: fixed;
+top: 50px;
+right: 80px;
+bottom: 30px;
+}
+#f-fixo{
+background-color: indianred;
+position: fixed;
+}
+#p-stick{
+background-color: black;
+width: 1000px;
+height: 1000px;
+}
+#f-stick{
+background-color: blueviolet;
+position: sticky;
+top: 50%;
+left: 50%;
+}
+#p-relative{
+background-color: aqua;
+}
+#f-relative{
+background-color: lightpink;
+position: relative;
+left: 80px;
+top: 50%;
+}
+#p-absolute{
+background-color: burlywood;
+
+}
+#f-absolute{
+background-color: deepskyblue;
+position: absolute;
+top: 100px;
+
+}
+#p-absolute-com-pai{
+background-color: dimgrey;
+    position: relative;
+}
+#f-absolute-com-pai{
+background-color: chocolate;
+position: absolute;
+top: 100px;
+}
