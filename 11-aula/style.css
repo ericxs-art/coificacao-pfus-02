@@ -5,6 +5,10 @@ margin: 0px;
 body{
     background-color: gray;
 }
+header{
+    position: sticky;
+    top: 0px;
+}
 #navegacao{
 width: 80%;
 background-color: cornsilk;
@@ -14,6 +18,8 @@ padding: 15px;
 color: darkblue;
 font-size: 30px;
 overflow: hidden;
+position: sticky;
+top: 0px;
 }
 .simbolo{
     font-size: 40px;
@@ -76,6 +82,21 @@ height: 200px;
 text-align: center;
 line-height: 200px;
 }
+#linha{
+    background-color: forestgreen;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+    color: black;
+}
+.mini-linha{
+background-color: whitesmoke;
+margin-top: 5px;
+height: 200px;
+line-height: 200px;
+width: 50%;
+display: inline;
+}
 @media screen and (max-width:900px){
     body{
         background-color: rgb(243, 0, 0);
@@ -123,5 +144,17 @@ body{
         margin-left: auto;
         margin-right: auto;
         font-size: 25px;
+    }
+    main{
+        width: 100%;
+        padding: 0px;
+    }
+    .mini-bloco{
+        width: 80%;
+        font-size: 20px;
+    }
+    .mini-linha{
+        font-size: 20px;
+        line-height: 100px;
     }
 }
