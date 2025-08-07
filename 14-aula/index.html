@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <!-- Aqui inicia a barra de navegação -->
+           <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+                <div class="container-fluid">
+                    <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+                    <a class="navbar-brand" href="#">
+                        <img src="https://i.pinimg.com/736x/92/54/74/9254740a2d36274c7c8875e93554a076.jpg"  alt="Bootstrap" width="30" height="35" class="d-inline-block align-text-top">
+                        NEYMAR</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">CONTATO</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    TIMES
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">SANTOS</a></li>
+                                    <li><a class="dropdown-item" href="#">BARCELONA</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">BRASIL</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" aria-disabled="true">SEGREDO</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                            <button class="btn btn-outline-success" type="submit">GO</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+            <!-- FIM DA BARRA DE NAVEGAÇÃO -->
+        </header>
+        <main>
+<!-- Criando um carrosel -->
+<div id="carouselExampleCaptions" class="carousel slide my-3">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://www.fcbarcelona.com/fcbarcelona/photo/2019/03/28/2ca9f28a-e0b9-48cb-b713-e73c886ffa9d/sgHlGdXa.jpg" class="d-block w-100" alt="..." height="600px">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>NJR PELO BARCELONA</h5>
+        <p>2013-2017</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://odia.ig.com.br/_midias/jpg/2025/01/29/1200x750/1_santos_prepara_volta_da_camisa_azul_em_homenagem_a_neymar-35156204.jpg" class="d-block w-100" alt="..." height="600px">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>NJR PELO SANTOS</h5>
+        <p> 1º PASSAGEM 2009 a 2013 / 
+            PASSAGEM ATUAL 2025 A 202?
+        </p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://newr7-r7-prod.web.arc-cdn.net/resizer/v2/5SWHW74VVBNVTDQ7TZTS2IC3BI.jpg?auth=1ea7160ee7a70f50f4c7bff42bd1bde0f893061469f6a40edf00969bbe181469&width=2799&height=2126" class="d-block w-100" alt="..." height="600px">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>NJR PELO BRASIL </h5>
+        <p>CAMPEÃO DA COPA DAS CONFEDERAÇÕES</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!-- FIM DO CARROSEL -->
+
+<!-- Grupo de cartões -->
+ <div class="card-group my-5">
+  <div class="card">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRb5PkPQuH84dU_IO1o0Iz6vUofGfWWP-ODHA&s" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Noticia exclusiva</h5>
+      <p class="card-text">Neymar foi dormir ao inves de treinar</p>
+      <p class="card-text"><small class="text-body-secondary">Autor: Craque neto</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSR5twvjE5-738mdUkoCDPU7eJibX-d1QOa8g&s" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Nostalgia</h5>
+      <p class="card-text">Neymar ama dá caneta no suaréz enquanto ele ta distraido</p>
+      <p class="card-text"><small class="text-body-secondary">Autor: Messi, em 2015</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6qTBNs5tZWXGqTPhTL2YcwqZHQ5lW2-VZDw&s" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Brasil noticias</h5>
+      <p class="card-text">Neymar vira o artilheiro dá seleção por jogos oficiais</p>
+      <p class="card-text"><small class="text-body-secondary">Autor: Fabrizio Romano</small></p>
+    </div>
+  </div>
+</div>
+ <!-- FIM DO GRUPO DE CARTÕES -->
+        </main>
+        <footer>
+
+        </footer>
+    </div>
+   <div class="container"> <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"> <p class="col-md-4 mb-0 text-body-secondary">© 2025 Company, Inc</p> <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none" aria-label="Bootstrap"> <svg class="bi me-2" width="40" height="32" aria-hidden="true"><use xlink:href="#bootstrap"></use></svg> </a> <ul class="nav col-md-4 justify-content-end"> <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li> <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li> <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li> <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li> <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li> </ul> </footer> </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
